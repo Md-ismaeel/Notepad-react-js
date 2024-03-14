@@ -8,8 +8,8 @@ export const MarkdownComponents = () => {
         <>
             <div className='right-container'>
                 <MarkdownEditor
-                    value=""
-                    placeholder={"#Enter a tittle"}
+                    value="# Enter title here"
+                    placeholder={"....."}
                     height="34.5rem"
                     enablePreview={true}
                 />
